@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basket Scicli Meerkat</title>
+  <meta name="description" content="ASD Basket Scicli Meerkat — pallacanestro, passione, comunità. Squadre, campionati, notizie e molto altro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="images/logo.png" alt="Logo Meerkat" />
+      <span>
+        <span class="nav-city">Basket Scicli</span>
+        Meerkat
+      </span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#chi-siamo">Chi siamo</a></li>
+      <li><a href="#stagioni">Stagioni</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="sponsor.html">Sponsor</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul>
+    <div class="nav-socials">
+      <a href="https://www.facebook.com/bsmeerkat" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/basketsciclimeerkat" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="https://www.youtube.com/@basketsciclimeerkat" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-inner">
+    <img src="images/logo.png" alt="Basket Scicli Meerkat" class="hero-logo" />
+    <h1 class="hero-title">
+      <span class="accent">Basket Scicli</span>
+      <span>Meerkat</span>
+    </h1>
+    <p class="hero-tagline">Passione · Squadra · Territorio</p>
+    <a href="#chi-siamo" class="hero-cta">Scopri di più</a>
+  </div>
+</section>
+
+<!-- ===== CHI SIAMO ===== -->
+<section id="chi-siamo">
+  <div class="container">
+    <div class="chi-siamo-grid">
+      <div class="chi-siamo-text">
+        <p class="section-title">Chi siamo</p>
+        <p class="section-subtitle">Una nuova squadra…</p>
+        <p>
+          Da un'idea di Fabrizio Lonatica, Paolo Ficili ed Alfonso Cannata, nasce Basket Scicli Meerkat.
+          La genesi di questa squadra è un racconto affascinante di passione, dedizione ed un pizzico di audacia.
+        </p>
+        <p>
+          Da un gruppo di amici che condividono la passione per il basket, alla costruzione di una
+          squadra che ha l'obiettivo di guadagnarsi rispetto ed attenzione. Tutto è cominciato da
+          una domanda durante una conversazione tra amici: perché la città di Scicli, pur avendo
+          una tradizione di basket storica, non ha mai avuto una prima squadra che rappresenti
+          il valore effettivo della città?
+        </p>
+        <p>
+          Ciò che rende questa squadra speciale è l'approccio unico verso il gioco. La filosofia
+          ruota attorno a una mentalità aperta all'innovazione, mettendo in discussione le tattiche
+          convenzionali e abbracciando idee fresche e audaci — con l'obiettivo di creare uno stile
+          di gioco distintivo che catturi l'attenzione degli spettatori e tenga gli avversari sulla difensiva.
+        </p>
+        <p>
+          La nascita di Basket Scicli Meerkat è una testimonianza di come la determinazione,
+          la passione e la visione possano trasformare un sogno in realtà, con l'obiettivo di
+          scrivere un nuovo capitolo nella storia dello sport di Scicli e della provincia di Ragusa.
+        </p>
+      </div>
+
+      <div class="chi-siamo-photo">
+        <img src="images/fondatori.png" alt="I fondatori: Fabrizio Lonatica, Paolo Ficili, Alfonso Cannata" />
+        <p class="chi-siamo-photo-caption">Fabrizio Lonatica, Paolo Ficili, Alfonso Cannata — i fondatori</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SPONSOR TICKER ===== -->
+<div class="ticker-intro">
+  <p>Dietro ogni nostro canestro ci sono aziende che credono in noi. Grazie ai nostri Partner</p>
+</div>
+<div class="sponsor-ticker">
+  <div class="ticker-track">
+    <div class="ticker-item"><img src="images/sponsor/t-arrabbito.png" alt="Arrabbito Nifosì" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-house.png" alt="House+" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-innova.png" alt="Innova" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-florguarino.png" alt="Florguarino" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-verdeoro.png" alt="Verdeoro" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-prosit.png" alt="Prosit" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-covato.png" alt="Covato Clima" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-medical.png" alt="Medical Prime" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-comal.png" alt="Comal" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-farmacia.png" alt="Farmacia del Popolo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-granifero.png" alt="Granifero" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-baps.png" alt="BAPS" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-afuntana.png" alt="A Funtana" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-floriddia.png" alt="Gioielleria Floriddia" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-trovato.png" alt="Trovato Food" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-macauda.png" alt="Macauda" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-carmelo.png" alt="Carmelo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-scifo.png" alt="Scifo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-angolo.png" alt="Angolo degli Antichi" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-confeserfidi.png" alt="Confeserfidi" /></div>
+
+    <div class="ticker-item"><img src="images/sponsor/t-varcuzza.jpg" alt="A Varcuzza di Donnalucata" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-lucifora.png" alt="Autoservizi Lucifora" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-maggio.png" alt="Maggio Gianmaria" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-caravan.jpg" alt="Caravan Public House" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-clo.png" alt="CLO Architettura" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-donnalucata.png" alt="Donnalucata Farming" /></div>
+    <!-- duplicato per loop seamless -->
+    <div class="ticker-item"><img src="images/sponsor/t-arrabbito.png" alt="Arrabbito Nifosì" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-house.png" alt="House+" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-innova.png" alt="Innova" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-florguarino.png" alt="Florguarino" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-verdeoro.png" alt="Verdeoro" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-prosit.png" alt="Prosit" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-covato.png" alt="Covato Clima" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-medical.png" alt="Medical Prime" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-comal.png" alt="Comal" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-farmacia.png" alt="Farmacia del Popolo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-granifero.png" alt="Granifero" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-baps.png" alt="BAPS" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-afuntana.png" alt="A Funtana" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-floriddia.png" alt="Gioielleria Floriddia" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-trovato.png" alt="Trovato Food" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-macauda.png" alt="Macauda" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-carmelo.png" alt="Carmelo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-scifo.png" alt="Scifo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-angolo.png" alt="Angolo degli Antichi" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-confeserfidi.png" alt="Confeserfidi" /></div>
+
+    <div class="ticker-item"><img src="images/sponsor/t-varcuzza.jpg" alt="A Varcuzza di Donnalucata" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-lucifora.png" alt="Autoservizi Lucifora" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-maggio.png" alt="Maggio Gianmaria" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-caravan.jpg" alt="Caravan Public House" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-clo.png" alt="CLO Architettura" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-donnalucata.png" alt="Donnalucata Farming" /></div>
+  </div>
+</div>
+
+<!-- ===== SQUADRE & CAMPIONATI ===== -->
+<!-- ===== STAGIONI ===== -->
+<section id="stagioni">
+  <div class="container">
+    <h2 class="section-title">Le Nostre Stagioni</h2>
+    <p class="section-subtitle">Recap, roster e galleria fotografica anno per anno</p>
+
+    <div class="tabs" data-target="stagioni-panels">
+      <button class="tab-btn active">2023–2024</button>
+      <button class="tab-btn">2024–2025</button>
+      <button class="tab-btn">2025–2026</button>
+      <button class="tab-btn">2026–2027</button>
+    </div>
+
+    <div id="stagioni-panels">
+
+      <!-- ===== STAGIONE 2023-2024 ===== -->
+      <div class="tab-panel active">
+        <div class="season-recap">
+          <span class="season-badge">Prima stagione · DR1 FIP Sicilia</span>
+          <h3 class="season-recap-title">L'anno del debutto e della grande passione</h3>
+          <p>La prima, storica stagione (2023-2024) del Basket Scicli Meerkat si è conclusa con un bilancio straordinariamente positivo. Al di là dei verdetti del campo, il traguardo più bello è stato l'entusiasmo travolgente che ha acceso la città, unendo la comunità sciclitana sotto i colori del basket.</p>
+          <a href="stagioni/2023-2024.html" class="season-read-more">Continua a leggere →</a>
+        </div>
+        <div class="season-preview-gallery">
+          <a href="stagioni/2023-2024.html" class="season-preview-img">
+            <img src="images/gallery/2023-2024/foto1.jpeg" alt="Stagione 2023-2024" loading="lazy" />
+          </a>
+          <a href="stagioni/2023-2024.html" class="season-preview-img">
+            <img src="images/gallery/2023-2024/foto5.jpg" alt="Stagione 2023-2024" loading="lazy" style="object-position: center 20%;" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== STAGIONE 2024-2025 ===== -->
+      <div class="tab-panel">
+        <div class="season-recap">
+          <span class="season-badge">Seconda stagione · DR1 FIP Sicilia</span>
+          <h3 class="season-recap-title">La conferma: crescita e nuovi traguardi</h3>
+          <p>La seconda stagione ha visto il Basket Scicli Meerkat consolidare il proprio ruolo nel panorama cestistico siciliano delle categorie minori. Dopo un finale della prima stagione che aveva lasciato tantissimo entusiasmo, l'obiettivo per questo secondo anno è stato chiaro fin da subito: <strong>tentare il salto di categoria</strong>, affidando la panchina al grande coach Giovanni Gebbia.</p>
+          <a href="stagioni/2024-2025.html" class="season-read-more">Continua a leggere →</a>
+        </div>
+        <div class="season-preview-gallery">
+          <a href="stagioni/2024-2025.html" class="season-preview-img">
+            <img src="images/gallery/2024-2025/squadra.jpeg" alt="Stagione 2024-2025" loading="lazy" />
+          </a>
+          <a href="stagioni/2024-2025.html" class="season-preview-img">
+            <img src="images/gallery/2024-2025/new1.jpg" alt="Stagione 2024-2025" loading="lazy" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== STAGIONE 2025-2026 ===== -->
+      <div class="tab-panel">
+        <div class="season-recap">
+          <span class="season-badge">Terza stagione · Serie C FIP Sicilia</span>
+          <h3 class="season-recap-title">La sfida della Serie C e l'ostacolo logistico</h3>
+          <p>Nonostante l'amarezza per la finale persa nella stagione precedente, la rimodulazione dei campionati operata dalla Federazione ha premiato il grande percorso del Basket Scicli Meerkat: l'aver disputato la finalissima ci ha garantito il pass per il campionato di Serie C. Un <strong>traguardo storico</strong>, la prima volta in assoluto che il basket sciclitano ha raggiunto un livello così importante.</p>
+          <a href="stagioni/2025-2026.html" class="season-read-more">Continua a leggere →</a>
+        </div>
+        <div class="season-preview-gallery">
+          <a href="stagioni/2025-2026.html" class="season-preview-img">
+            <img src="images/gallery/2025-2026/new2.jpg" alt="Stagione 2025-2026" loading="lazy" />
+          </a>
+          <a href="stagioni/2025-2026.html" class="season-preview-img">
+            <img src="images/gallery/2025-2026/partita1.jpg" alt="Stagione 2025-2026" loading="lazy" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== STAGIONE 2026-2027 ===== -->
+      <div class="tab-panel">
+        <div class="season-recap">
+          <span class="season-badge">Quarta stagione · In costruzione</span>
+          <h3 class="season-recap-title">Work in progress</h3>
+          <p>La stagione 2026-2027 è in preparazione. Aggiornamenti in arrivo.</p>
+        </div>
+      </div>
+
+    </div><!-- /stagioni-panels -->
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <img src="" alt="" id="lightboxImg" />
+</div>
+
+<!-- ===== SPONSOR TICKER (dopo stagioni) ===== -->
+<div class="ticker-intro">
+  <p>Dietro ogni nostro canestro ci sono aziende che credono in noi. Grazie ai nostri Partner</p>
+</div>
+<div class="sponsor-ticker">
+  <div class="ticker-track">
+    <div class="ticker-item"><img src="images/sponsor/t-arrabbito.png" alt="Arrabbito Nifosì" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-house.png" alt="House+" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-innova.png" alt="Innova" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-florguarino.png" alt="Florguarino" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-verdeoro.png" alt="Verdeoro" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-prosit.png" alt="Prosit" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-covato.png" alt="Covato Clima" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-medical.png" alt="Medical Prime" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-comal.png" alt="Comal" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-farmacia.png" alt="Farmacia del Popolo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-granifero.png" alt="Granifero" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-baps.png" alt="BAPS" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-afuntana.png" alt="A Funtana" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-floriddia.png" alt="Gioielleria Floriddia" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-trovato.png" alt="Trovato Food" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-macauda.png" alt="Macauda" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-carmelo.png" alt="Carmelo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-scifo.png" alt="Scifo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-angolo.png" alt="Angolo degli Antichi" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-confeserfidi.png" alt="Confeserfidi" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-varcuzza.jpg" alt="A Varcuzza di Donnalucata" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-lucifora.png" alt="Autoservizi Lucifora" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-maggio.png" alt="Maggio Gianmaria" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-caravan.jpg" alt="Caravan Public House" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-clo.png" alt="CLO Architettura" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-donnalucata.png" alt="Donnalucata Farming" /></div>
+    <!-- duplicato per loop seamless -->
+    <div class="ticker-item"><img src="images/sponsor/t-arrabbito.png" alt="Arrabbito Nifosì" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-house.png" alt="House+" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-innova.png" alt="Innova" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-florguarino.png" alt="Florguarino" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-verdeoro.png" alt="Verdeoro" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-prosit.png" alt="Prosit" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-covato.png" alt="Covato Clima" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-medical.png" alt="Medical Prime" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-comal.png" alt="Comal" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-farmacia.png" alt="Farmacia del Popolo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-granifero.png" alt="Granifero" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-baps.png" alt="BAPS" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-afuntana.png" alt="A Funtana" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-floriddia.png" alt="Gioielleria Floriddia" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-trovato.png" alt="Trovato Food" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-macauda.png" alt="Macauda" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-carmelo.png" alt="Carmelo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-scifo.png" alt="Scifo" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-angolo.png" alt="Angolo degli Antichi" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-confeserfidi.png" alt="Confeserfidi" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-varcuzza.jpg" alt="A Varcuzza di Donnalucata" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-lucifora.png" alt="Autoservizi Lucifora" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-maggio.png" alt="Maggio Gianmaria" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-caravan.jpg" alt="Caravan Public House" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-clo.png" alt="CLO Architettura" /></div>
+    <div class="ticker-item"><img src="images/sponsor/t-donnalucata.png" alt="Donnalucata Farming" /></div>
+  </div>
+</div>
+
+<!-- ===== STAFF ===== -->
+<section id="staff">
+  <div class="container">
+    <h2 class="section-title">Lo Staff</h2>
+
+    <div class="season-recap">
+      <span class="season-badge">Il motore dietro il progetto Meerkat</span>
+      <p>Dietro ogni singola partita, ogni trasferta e ogni traguardo raggiunto sul campo di gioco c'è un team invisibile agli occhi del pubblico, ma fondamentale per l'esistenza stessa della società. Una macchina organizzativa complessa, dove la passione si fonde con la professionalità e dove il lavoro di squadra e l'impegno profuso da ciascun componente garantiscono la continuità e il funzionamento del progetto societario.</p>
+      <a href="staff.html" class="season-read-more">Scopri lo staff →</a>
+    </div>
+
+    <div class="season-preview-gallery">
+      <a href="staff.html" class="season-preview-img">
+        <img src="images/staff/staff17.jpg" alt="Staff Meerkat Scicli" loading="lazy" />
+      </a>
+      <a href="staff.html" class="season-preview-img">
+        <img src="images/staff/staff7.jpg" alt="Media team Meerkat" loading="lazy" />
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section style="background: var(--gray-100); padding: 80px 0;">
+  <div class="container">
+    <div class="news-grid">
+
+      <div class="news-card">
+        <img class="news-card-img" src="images/eventi/presentazione-2025/pres5.jpg" alt="Presentazione del team 2025-2026" style="object-position: center 40%;" />
+        <div class="news-card-body">
+          <div class="news-card-tag">Società · Settembre 2025</div>
+          <div class="news-card-title">Presentazione ufficiale del roster 2025-2026</div>
+          <p class="news-card-text">La grande serata di presentazione della squadra e dello staff per la stagione 2025-2026. Entusiasmo e orgoglio per tutta la comunità sciclitana.</p>
+          <a href="news/presentazione-2025.html" class="news-card-link">Continua a leggere →</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img class="news-card-img" src="images/eventi/myers/myers1.jpg" alt="Carlton Myers ospite dei Meerkat" style="object-position: center 40%;" />
+        <div class="news-card-body">
+          <div class="news-card-tag">Evento · Marzo 2025</div>
+          <div class="news-card-title">Carlton Myers ospite d'onore dei Meerkat</div>
+          <p class="news-card-text">Una serata indimenticabile con la leggenda del basket Carlton Myers, ospite della famiglia Meerkat. Un momento storico per il basket sciclitano.</p>
+          <a href="news/carlton-myers.html" class="news-card-link">Continua a leggere →</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img class="news-card-img" src="images/eventi/festa-2024/festa1.jpg" alt="Festa di fine stagione 2024" style="object-position: center 30%;" />
+        <div class="news-card-body">
+          <div class="news-card-tag">Squadra · Maggio 2024</div>
+          <div class="news-card-title">Festa di fine stagione: un anno insieme</div>
+          <p class="news-card-text">La firma sulla maglia, il pranzo insieme, i sorrisi di chi ha condiviso una stagione intera. Il rito di fine anno che unisce giocatori, staff e famiglie.</p>
+          <a href="news/festa-fine-stagione-2024.html" class="news-card-link">Continua a leggere →</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img class="news-card-img" src="images/eventi/promo-sponsor/promo1.jpg" alt="Shooting fotografico sponsor 2024" />
+        <div class="news-card-body">
+          <div class="news-card-tag">Sponsor · Marzo 2024</div>
+          <div class="news-card-title">Shooting fotografico con gli sponsor</div>
+          <p class="news-card-text">Set in palestra, fotografi e telecamere: i Meerkat protagonisti dello shooting promozionale dedicato agli sponsor della stagione 2023-2024.</p>
+          <a href="news/promo-sponsor-2024.html" class="news-card-link">Continua a leggere →</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img class="news-card-img" src="images/eventi/presentazione-2023/pres23_1.jpg" alt="Presentazione a Palazzo Spadaro 2023" style="object-position: center 35%;" />
+        <div class="news-card-body">
+          <div class="news-card-tag">Società · Settembre 2023</div>
+          <div class="news-card-title">Presentazione ufficiale a Palazzo Spadaro</div>
+          <p class="news-card-text">La squadra presentata alla città nella Sala Consiliare del Comune, alla presenza del Sindaco e dei rappresentanti dell'amministrazione. L'inizio ufficiale del progetto Meerkat.</p>
+          <a href="news/presentazione-2023.html" class="news-card-link">Continua a leggere →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Logo Meerkat" />
+          <span class="footer-logo-name">Basket Scicli Meerkat</span>
+        </div>
+        <p>
+          ASD Basket Scicli Meerkat<br />
+          P.IVA 01817770884<br />
+          Sede legale: Via Monfalcone 13 – 97018 Scicli (RG)<br />
+          Affiliata FIP – Federazione Italiana Pallacanestro<br />
+          N. Affiliazione FIP: 055943
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-title">Sezioni</div>
+        <ul>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#squadre">Squadre</a></li>
+          <li><a href="#galleria">Galleria</a></li>
+          <li><a href="#sponsor">Sponsor</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-title">Seguici</div>
+        <ul>
+          <li><a href="https://www.facebook.com/bsmeerkat" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/basketsciclimeerkat" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2023–2026 ASD Basket Scicli Meerkat. Tutti i diritti riservati.</span>
+      <span>P.IVA 01817770884</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

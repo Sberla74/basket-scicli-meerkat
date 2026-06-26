@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lo Staff · Basket Scicli Meerkat</title>
+  <meta name="description" content="Scopri lo staff organizzativo del Basket Scicli Meerkat: le persone che lavorano ogni giorno dietro le quinte per il progetto Meerkat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo.png" alt="Logo Meerkat" />
+      <span>
+        <span class="nav-city">Basket Scicli</span>
+        Meerkat
+      </span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#chi-siamo">Chi siamo</a></li>
+      <li><a href="index.html#stagioni">Stagioni</a></li>
+      <li><a href="staff.html" class="active">Staff</a></li>
+      <li><a href="sponsor.html">Sponsor</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="index.html#contatti">Contatti</a></li>
+    </ul>
+    <div class="nav-socials">
+      <a href="https://www.facebook.com/bsmeerkat" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/basketsciclimeerkat" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="https://www.youtube.com/@basketsciclimeerkat" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="stagione-hero">
+  <div class="container">
+    <a href="index.html#staff" class="stagione-back">← Torna alla home</a>
+    <span class="season-badge">Il motore dietro il progetto Meerkat</span>
+    <h1 class="stagione-title">Lo Staff<br />Organizzativo</h1>
+    <p class="stagione-year">Le persone che rendono possibile il Basket Scicli Meerkat</p>
+  </div>
+</section>
+
+<!-- ===== CONTENUTO ===== -->
+<section class="stagione-content">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="season-recap">
+      <p>Dietro ogni singola partita, ogni trasferta e ogni traguardo raggiunto sul campo di gioco c'è un team invisibile agli occhi del pubblico, ma fondamentale per l'esistenza stessa della società. Una macchina organizzativa complessa, dove la passione si fonde con la professionalità e dove il lavoro di squadra e l'impegno profuso da ciascun componente garantiscono la continuità e il funzionamento del progetto societario.</p>
+      <p style="margin-top:16px; color: var(--gray-600);">Ogni figura, pur avendo un'area di competenza principale, opera in modo trasversale: la flessibilità e la capacità di adattarsi alle esigenze del momento sono parte del DNA Meerkat.</p>
+    </div>
+
+    <!-- Foto apertura -->
+    <div class="staff-section-img-wide">
+      <img src="images/staff/staff10.jpg" alt="Lo staff Meerkat Scicli" loading="lazy" style="object-position: center 60%;" />
+    </div>
+
+    <!-- Lista unica staff -->
+    <div class="staff-block" style="border-bottom: none; margin-bottom: 0; padding-bottom: 48px;">
+      <div class="staff-person-grid">
+
+        <div class="staff-person">
+          <div class="staff-person-name">Paolo Ficili</div>
+          <div class="staff-person-role">Presidente</div>
+          <p>Oltre a ricoprire la massima carica istituzionale ed essere il main sponsor, è grazie al suo impegno e alle sue relazioni sul territorio che si concludono le partnership di sponsorizzazione più importanti per la crescita del progetto.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Fabrizio Lonatica</div>
+          <div class="staff-person-role">General Manager</div>
+          <p>Il suo impegno si traduce nella programmazione, nell'organizzazione e nella gestione delle risorse. Un importante e delicato equilibrio tra le ambizioni sportive e la sostenibilità societaria. È il collante che unisce la visione della dirigenza alle necessità pratiche quotidiane.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Alfonso Cannata</div>
+          <div class="staff-person-role">Marketing Manager</div>
+          <p>Traduce la passione sportiva in valore e sostenibilità per i partner commerciali. Attraverso lo sviluppo del brand Meerkat e la ricerca di sponsorizzazioni, il suo costante lavoro sul territorio garantisce le risorse vitali per sostenere i progetti della società.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Lucio Lonatica</div>
+          <div class="staff-person-role">All-Around</div>
+          <p>Un profilo polivalente e dinamico, che interviene tempestivamente ovunque si crei un'esigenza — supporto tecnico, logistico e relazioni esterne — fungendo da collante per garantire che tutto funzioni.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Davide Implatini</div>
+          <div class="staff-person-role">Team Manager</div>
+          <p>Il punto di riferimento quotidiano della squadra. Il suo è un lavoro di costante mediazione, risoluzione di problemi logistici e supporto diretto a giocatori e staff tecnico. La sua presenza assicura che il gruppo si concentri solo ed esclusivamente sul campo.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Giorgio Gianni</div>
+          <div class="staff-person-role">Responsabile Sicurezza</div>
+          <p>Il garante della serenità e dell'ordine pubblico durante gli eventi. Il suo impegno assicura che ogni partita si svolga nel pieno rispetto delle normative, offrendo un ambiente sicuro e accogliente per atleti, arbitri e tifosi.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Guglielmo Manenti</div>
+          <div class="staff-person-role">Dirigente Accompagnatore</div>
+          <p>Una figura storica e rassicurante, sempre al fianco della squadra sia in casa che nelle trasferte. Il suo supporto logistico e umano è fondamentale per mantenere alto il morale e risolvere tempestivamente qualsiasi imprevisto organizzativo.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Filippo Fresta</div>
+          <div class="staff-person-role">Assistente alla Logistica</div>
+          <p>Una figura trasversale fondamentale per il supporto logistico del club. Si occupa della gestione pratica del materiale, della preparazione delle strutture e del supporto organizzativo delle gare interne.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Fulvio Grimaldi</div>
+          <div class="staff-person-role">Scouting</div>
+          <p>L'uomo delle statistiche, sempre presente e vicino allo staff tecnico, aiuta il coach a capire chi sta rendendo di più o dove la squadra sta soffrendo. Trasforma un lavoro "meccanico" in un ruolo di responsabilità, dando un contributo concreto ad ogni partita.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Vincenzo Bramanti</div>
+          <div class="staff-person-role">Telecronista Dirette</div>
+          <p>Il narratore delle gesta dei Meerkat per tutti i tifosi da casa. Con competenza tecnica e trasporto emotivo, garantisce una copertura video e un racconto delle partite live di altissimo livello.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Angelo Ballaera</div>
+          <div class="staff-person-role">Staff Sanitario</div>
+          <p>Esperienza pluriennale e massima professionalità nella gestione degli infortuni e nella tutela medica di tutti i tesserati.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Fabrizio Pacetto</div>
+          <div class="staff-person-role">Staff Sanitario</div>
+          <p>Supporto costante e professionale nella cura e nel recupero fisico degli atleti, con dedizione ad ogni seduta.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Andrea Romeo</div>
+          <div class="staff-person-role">Staff Sanitario</div>
+          <p>Presenza preziosa nel trattamento fisioterapico dei giocatori, sempre disponibile nei momenti più delicati della stagione.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Enzo Statello</div>
+          <div class="staff-person-role">Speaker</div>
+          <p>La voce ufficiale dei Meerkat. Con la sua energia e il suo carisma infiamma il palazzetto, scandisce i momenti clou della gara e trascina il pubblico, diventando il vero sesto uomo in campo.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Giorgio Alfano</div>
+          <div class="staff-person-role">Regia Dirette</div>
+          <p>L'occhio che permette ai tifosi, sponsor e appassionati di vivere la partita come se fossero in prima fila. Un lavoro di frazioni di secondo, dove la freddezza tecnologica incontra la passione per il basket.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Ernesto Alfano</div>
+          <div class="staff-person-role">Video Maker</div>
+          <p>Cattura l'essenza dei Meerkat attraverso l'obiettivo. Il suo lavoro creativo nella produzione di clip, highlights e contenuti social è fondamentale per la digital brand identity della società.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Michele Giallongo</div>
+          <div class="staff-person-role">Deejay Match</div>
+          <p>Regista della colonna sonora del match. Sincronizza i ritmi della musica con l'andamento della partita, mantenendo alta la tensione positiva nei time-out e scaldando l'atmosfera durante il riscaldamento.</p>
+        </div>
+
+        <div class="staff-person">
+          <div class="staff-person-name">Elena Carnemolla</div>
+          <div class="staff-person-role">Deejay Match</div>
+          <p>Con sensibilità musicale e attenzione al ritmo della partita, contribuisce a creare l'atmosfera unica del match casalingo dei Meerkat, rendendolo uno spettacolo da vivere anche fuori dal campo.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Foto media team -->
+    <div class="staff-section-img-wide" style="margin-bottom: 48px;">
+      <img src="images/staff/staff12.jpg" alt="Staff Meerkat Scicli" loading="lazy" style="object-position: center 70%;" />
+    </div>
+
+    <!-- Chiusura -->
+    <div class="season-recap" style="border-top: 2px solid var(--black); padding-top: 40px; margin-top: 0;">
+      <p>Un gruppo unito, dove ogni tassello è indispensabile per la perfetta riuscita del mosaico complessivo. Un ringraziamento va a ciascuno di loro per il tempo, il sacrificio e la passione dedicati ai colori del Basket Scicli Meerkat.</p>
+    </div>
+
+    <!-- Gallery -->
+    <h4 class="gallery-section-title">Il nostro team in azione</h4>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-src="images/staff/staff1.jpg"><img src="images/staff/staff1.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff2.jpg"><img src="images/staff/staff2.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff3.jpg"><img src="images/staff/staff3.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff5.jpg"><img src="images/staff/staff5.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff6.jpg"><img src="images/staff/staff6.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff9.jpg"><img src="images/staff/staff9.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff10.jpg"><img src="images/staff/staff10.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff11.jpg"><img src="images/staff/staff11.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff12.jpg"><img src="images/staff/staff12.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff13.jpg"><img src="images/staff/staff13.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff14.jpg"><img src="images/staff/staff14.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff15.jpg"><img src="images/staff/staff15.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff16.jpg"><img src="images/staff/staff16.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+      <div class="gallery-item" data-src="images/staff/staff18.jpg"><img src="images/staff/staff18.jpg" alt="Staff Meerkat" loading="lazy" /></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <img src="" alt="" id="lightboxImg" />
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Logo Meerkat" />
+          <span class="footer-logo-name">Basket Scicli Meerkat</span>
+        </div>
+        <p>
+          ASD Basket Scicli Meerkat<br />
+          P.IVA 01817770884<br />
+          Sede legale: Via Monfalcone 13 – 97018 Scicli (RG)<br />
+          Affiliata FIP – Federazione Italiana Pallacanestro<br />
+          N. Affiliazione FIP: 055943
+        </p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Sezioni</div>
+        <ul>
+          <li><a href="index.html#chi-siamo">Chi siamo</a></li>
+          <li><a href="index.html#stagioni">Stagioni</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="sponsor.html">Sponsor</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="index.html#contatti">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Seguici</div>
+        <ul>
+          <li><a href="https://www.facebook.com/bsmeerkat" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/basketsciclimeerkat" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2023–2026 ASD Basket Scicli Meerkat. Tutti i diritti riservati.</span>
+      <span>P.IVA 01817770884</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
