@@ -1095,7 +1095,8 @@ footer {
   .nav-links { display: none; flex-direction: column; position: absolute; top: var(--nav-h); left: 0; right: 0; background: white; padding: 20px 24px; border-bottom: 1px solid var(--gray-200); gap: 20px; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: flex; }
-  .nav-socials { display: none; }
+  .nav-socials { display: flex; gap: 12px; }
+  .nav-socials svg { width: 18px; height: 18px; }
 
   .chi-siamo-grid { grid-template-columns: 1fr; gap: 40px; }
   .contatti-grid { grid-template-columns: 1fr; gap: 40px; }
