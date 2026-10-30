@@ -387,6 +387,15 @@ section { padding: 90px 0; }
 
 .season-read-more:hover { opacity: 0.5; }
 
+.chi-siamo-toggle {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .season-preview-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;

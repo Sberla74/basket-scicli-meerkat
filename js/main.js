@@ -78,3 +78,14 @@ form?.addEventListener('submit', e => {
   const body = encodeURIComponent(`Nome: ${name}\nEmail: ${email}\n\n${msg}`);
   window.location.href = `mailto:info@sciclimeerkat.it?subject=${subject}&body=${body}`;
 });
+
+// ===== CHI SIAMO: CONTINUA A LEGGERE =====
+document.querySelectorAll('.chi-siamo-toggle').forEach(btn => {
+  const extra = document.getElementById(btn.getAttribute('aria-controls'));
+  btn.addEventListener('click', () => {
+    const open = extra.hidden;
+    extra.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.textContent = open ? 'Riduci ↑' : 'Continua a leggere →';
+  });
+});
