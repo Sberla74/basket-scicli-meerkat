@@ -89,3 +89,17 @@ document.querySelectorAll('.chi-siamo-toggle').forEach(btn => {
     btn.textContent = open ? 'Riduci ↑' : 'Continua a leggere →';
   });
 });
+
+// ===== HOME: BANDA SPONSOR OGNI 6 NEWS =====
+const homeNews = document.getElementById('homeNews');
+const sponsorTicker = document.getElementById('sponsorTicker');
+if (homeNews && sponsorTicker) {
+  const cards = homeNews.querySelectorAll(':scope > .news-card');
+  cards.forEach((card, i) => {
+    if ((i + 1) % 6 === 0 && i < cards.length - 1) {
+      const band = sponsorTicker.cloneNode(true);
+      band.removeAttribute('id');
+      card.after(band);
+    }
+  });
+}

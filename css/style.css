@@ -1116,3 +1116,10 @@ footer {
   .tabs { overflow-x: auto; }
   .tab-btn { white-space: nowrap; }
 }
+
+/* Banda sponsor ripetuta tra le news in homepage */
+.news-grid .sponsor-ticker {
+  grid-column: 1 / -1;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
